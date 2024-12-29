@@ -51,4 +51,4 @@ Cross Entropy Loss (CELoss) for number of epochs = 700. It looks like the traine
 
 ### 4. Preprocessing Text for RNNs
 
-Vocabulary size: 51
+**Vocabulary size:** 51

@@ -3,7 +3,7 @@
 
 ## Generating Text with PyTorch:
 
-### Building Bigram Models
+### 1 .Building Bigram Models: 
 
 **Vocabulary Size (Chapter 1)**: 321
 

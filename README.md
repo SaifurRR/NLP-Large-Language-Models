@@ -42,3 +42,11 @@ NextWordBigram(
 "it is a truth bit high so bit high so bit high so bit" 
 
 The text generated from the untrained model seems to be repeating the tokens 'hope ', and 'impatiently'. The first context token 'truth' is predicted to have the next token 'hope'. The previously predicted token 'hope' becomes the next context token which is used to predict the next token 'impatiently'. The previously predicted token 'impatiently' becomes the next context token which is used to predict the next token 'hope'. This causes the repeated predictions 'hope' ==> 'impatiently' ==> 'hope ' ==> 'impatiently'.
+
+### 3. Training Bigram Model
+![ALT TEXT](https://github.com/SaifurRR/NLP-Large-Language-Models/blob/main/Generating%20Text%20with%20PyTorch/epoch_prob.jpg)
+
+Cross Entropy Loss (CELoss) for number of epochs = 700. It looks like the trained bigram model generates slightly more coherent text than the untrained bigram model. Specifically, it correctly predicted the next three tokens: 'universally', 'acknowledged', and 'that'. However, we see the limitations of the bigram model as it quickly falls into repetition, repeating the sequence "that he is not you must know mrs". Since bigram models only use a single context token (the previous token) to predict the next token, it won't be able to learn the long-term contextual relationships within the text beyond those immediate bigram pairs.
+
+
+

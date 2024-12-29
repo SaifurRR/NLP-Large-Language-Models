@@ -52,3 +52,11 @@ Cross Entropy Loss (CELoss) for number of epochs = 700. It looks like the traine
 ### 4. Preprocessing Text for RNNs
 
 **Vocabulary size:** 51
+
+### 5.LSTM Model
+
+CharacterLSTM(
+  (embedding): Embedding(51, 64)
+  (lstm): LSTM(64, 128, batch_first=True)
+  (linear): Linear(in_features=128, out_features=51, bias=True)
+)

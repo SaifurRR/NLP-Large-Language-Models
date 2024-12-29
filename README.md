@@ -53,7 +53,7 @@ Cross Entropy Loss (CELoss) for number of epochs = 700. It looks like the traine
 
 **Vocabulary size:** 51
 
-### 5.LSTM Model
+### 5. LSTM Model
 
 CharacterLSTM(
   (embedding): Embedding(51, 64)

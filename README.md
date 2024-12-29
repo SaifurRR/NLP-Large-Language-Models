@@ -41,4 +41,4 @@ NextWordBigram(
 
 "it is a truth bit high so bit high so bit high so bit" 
 
-The text generated from the untrained model seems to be repeating the tokens 'hope ', and 'impatiently'. The first context token 'truth' is predicted to have the next token 'hope' the previously predicted token 'hope' becomes the next context token which is used to predict the next token 'impatiently'the previously predicted token 'impatiently' becomes the next context token which is used to predict the next token 'hope' this causes the repeated predictions 'hope' ==> 'impatiently' ==> 'hope ' ==> 'impatiently'.
+The text generated from the untrained model seems to be repeating the tokens 'hope ', and 'impatiently'. The first context token 'truth' is predicted to have the next token 'hope'. The previously predicted token 'hope' becomes the next context token which is used to predict the next token 'impatiently'. The previously predicted token 'impatiently' becomes the next context token which is used to predict the next token 'hope'. This causes the repeated predictions 'hope' ==> 'impatiently' ==> 'hope ' ==> 'impatiently'.

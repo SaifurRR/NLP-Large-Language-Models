@@ -1,7 +1,9 @@
 # NLP_Language_Models    
 
 
-### Generating Text with PyTorch:
+## Generating Text with PyTorch:
+
+### Building Bigram Models
 
 **Vocabulary Size (Chapter 1)**: 321
 

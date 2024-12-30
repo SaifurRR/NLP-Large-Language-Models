@@ -69,4 +69,6 @@ CharacterLSTM(
 
 ![ALT TEXT](https://github.com/SaifurRR/NLP-Large-Language-Models/blob/main/Generating%20Text%20with%20PyTorch/epoch_LSTM.jpeg)
 
-The LSTM model was able to successfully generate the full first sentence: **It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife**. Notably, it is even able to correctly generate the comma ',' after the word 'acknowledged'. This is because we decided to not remove punctuations and special characters from the raw text which allowed the LSTM to learn to generate them instead! Afterward, it starts to deviate from the actual text but still maintains some grammatical accuracy! Remember, our model was trained fairly shortly and only on a small portion (Chapter 1) of the full text.
+The LSTM model was able to successfully generate the full first sentence: **"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"**. 
+
+Notably, it is even able to correctly generate the comma ',' after the word 'acknowledged'. This is because we decided to not remove punctuations and special characters from the raw text which allowed the LSTM to learn to generate them instead! Afterward, it starts to deviate from the actual text but still maintains some grammatical accuracy! Remember, our model was trained fairly shortly and only on a small portion (Chapter 1) of the full text.

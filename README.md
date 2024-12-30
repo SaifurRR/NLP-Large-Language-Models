@@ -71,4 +71,4 @@ CharacterLSTM(
 
 The LSTM model was able to successfully generate the full first sentence: **"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"**. 
 
-Notably, it is even able to correctly generate the comma ',' after the word 'acknowledged'. This is because we decided to not remove punctuations and special characters from the raw text which allowed the LSTM to learn to generate them instead! Afterward, it starts to deviate from the actual text but still maintains some grammatical accuracy! Remember, our model was trained fairly shortly and only on a small portion (Chapter 1) of the full text.
+Notably, it is even able to correctly generate the comma ',' after the word 'acknowledged'. This is because we decided to not remove punctuations and special characters from the raw text which allowed the LSTM to learn to generate them instead. Afterward, it starts to deviate from the actual text but still maintains some grammatical accuracy. Note that, our model was trained fairly shortly and only on a small portion of the full text.

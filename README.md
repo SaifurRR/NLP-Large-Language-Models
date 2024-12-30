@@ -130,7 +130,7 @@ Epoch [4/5], CELoss: 0.3593
 
 Epoch [5/5], CELoss: 0.3722
 
-**Generated Text:**
+#### Generated Text:
 
 **Starting Prompt:** "You will rejoice to hear"
 

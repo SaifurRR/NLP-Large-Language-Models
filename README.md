@@ -91,6 +91,7 @@ CharacterLSTM(
 )
 
 **Optimizer:**
+
 Adam (
 
 Parameter Group 0
@@ -130,7 +131,8 @@ Epoch [4/5], CELoss: 0.3593
 Epoch [5/5], CELoss: 0.3722
 
 **Generated Text:**
-Starting Prompt: "You will rejoice to hear"
 
-Generated Text: "You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which attracts the needle and may regulate a thousand celestial observations that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part often depressed. I am about to proceed on a long and difficult voyage, the emergencies of which will demand all my fortitude: I am required not only to raise the second dignity in the vessel and entreated"
+**Starting Prompt:** "You will rejoice to hear"
+
+**Generated Text:** "You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which attracts the needle and may regulate a thousand celestial observations that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part often depressed. I am about to proceed on a long and difficult voyage, the emergencies of which will demand all my fortitude: I am required not only to raise the second dignity in the vessel and entreated"
 

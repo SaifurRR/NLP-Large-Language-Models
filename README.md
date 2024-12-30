@@ -72,3 +72,65 @@ CharacterLSTM(
 The LSTM model was able to successfully generate the full first sentence: **"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife"**. 
 
 Notably, it is even able to correctly generate the comma ',' after the word 'acknowledged'. This is because we decided to not remove punctuations and special characters from the raw text which allowed the LSTM to learn to generate them instead. Afterward, it starts to deviate from the actual text but still maintains some grammatical accuracy. Note that, our model was trained fairly shortly and only on a small portion of the full text.
+
+
+### Generating Text with Frankenstein Using PyTorch
+
+The first letter in Frankenstein contains **6,850** character-based tokens, with a vocabulary of **60** unique tokens, including special characters, numbers, uppercase, and lowercase letters.
+
+**LSTM Model:**
+
+CharacterLSTM(
+
+  (embedding): Embedding(60, 48)
+  
+  (lstm): LSTM(48, 96, batch_first=True)
+  
+  (linear): Linear(in_features=96, out_features=60, bias=True)
+
+)
+
+**Optimizer:**
+Adam (
+
+Parameter Group 0
+
+    amsgrad: False
+    
+    betas: (0.9, 0.999)
+    
+    capturable: False
+    
+    differentiable: False
+    
+    eps: 1e-08
+    
+    foreach: None
+    
+    fused: None
+    
+    lr: 0.015
+    
+    maximize: False
+    
+    weight_decay: 0
+
+)
+
+**Cross Entropy Loss:**
+
+Epoch [1/5], CELoss: 1.0588
+
+Epoch [2/5], CELoss: 0.6542
+
+Epoch [3/5], CELoss: 0.4657
+
+Epoch [4/5], CELoss: 0.3593
+
+Epoch [5/5], CELoss: 0.3722
+
+**Generated Text:**
+Starting Prompt: "You will rejoice to hear"
+
+Generated Text: "You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which attracts the needle and may regulate a thousand celestial observations that require only this voyage to render their seeming eccentricities consistent for ever. I shall satiate my ardent curiosity with the sight of a part often depressed. I am about to proceed on a long and difficult voyage, the emergencies of which will demand all my fortitude: I am required not only to raise the second dignity in the vessel and entreated"
+
